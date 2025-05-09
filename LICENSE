@@ -1,5 +1,22 @@
 MIT License
 
+
+---
+
+### Notes for Readers
+
+- **Accuracy**: The corrected code aligns with the problem’s requirements, using the specified CDF approximation consistently.
+- **Professionalism**: The narrative and code structure are polished, showcasing both financial expertise and software engineering skills.
+- **Robustness**: Input validation and warnings enhance the code’s reliability.
+- **Portfolio Appeal**: The project is a standout addition to your GitHub, demonstrating real-world applicability in quantitative finance.
+
+---
+
+### Conclusion
+
+The discrepancy was resolved by ensuring the Python code uses the polynomial CDF approximation consistently, removing the `scipy.stats.norm` dependency. The updated project maintains the professional narrative and scikit-learn-style structure, delivering accurate results that match the manual calculations. This version is ready for your GitHub portfolio to impress employers. If you’d like further enhancements (e.g., visualizations, additional Greeks), or have other projects to explore, please let me know!
+
+
 Copyright (c) 2025 Amos Kwame Anderson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
