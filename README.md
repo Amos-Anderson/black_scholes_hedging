@@ -113,6 +113,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 For questions or collaboration opportunities, connect with me on LinkedIn or open an issue on GitHub.
 
-Author: Amos Anderson \
-GitHub: Amos-Anderson \ 
-Project Repository: black-scholes-hedging \
+Author: Amos Anderson 
+
+GitHub: Amos-Anderson 
+
+Project Repository: black-scholes-hedging
+
