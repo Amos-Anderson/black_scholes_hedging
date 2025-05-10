@@ -11,9 +11,8 @@ In financial markets, options are powerful tools for managing risk and capturing
 
 ## Key features:
 
-A unique polynomial approximation for the standard normal CDF, ensuring precise calculations.
-LaTeX derivations in a Jupyter Notebook, blending mathematical rigor with practical insights.
-Clean, scikit-learn-style Python code with input validation and comprehensive docstrings.
+* A unique polynomial approximation for the standard normal CDF, ensuring precise calculations.
+* Clean, scikit-learn-style Python code with input validation and comprehensive docstrings.
 
 This project is ideal for quantitative finance professionals, data scientists, and developers interested in financial modeling and risk management.
 
@@ -36,7 +35,7 @@ cd black-scholes-hedging
 
 4. Open black_scholes_hedging.ipynb and run all cells to explore the derivations, code, and results.
 
-5. Python Script
+### Python Script
 
   - Run the standalone script:python black_scholes_hedging_corrected.py
 
@@ -61,7 +60,8 @@ The project implements the Black-Scholes model for a European call option with t
 
 ## Key Components
 
-1. Pricing: Computes the call option value using a custom polynomial approximation for the standard normal CDF, as specified:$$\Phi(x) = 0.5 + \frac{1}{\sqrt{2\pi}} \left( x - \frac{x^3}{6} + \frac{x^5}{40} - \frac{x^7}{336} + \frac{x^9}{3456} \right), \quad 0 < x \leq 1.$$
+1. Pricing: Computes the call option value using a custom polynomial approximation for the standard normal CDF, as specified:
+$$\Phi(x) = 0.5 + \frac{1}{\sqrt{2\pi}} \left( x - \frac{x^3}{6} + \frac{x^5}{40} - \frac{x^7}{336} + \frac{x^9}{3456} \right), \quad 0 < x \leq 1.$$
 2. Delta Calculation: Determines the option’s delta to guide the hedging strategy.
 3. Hedging Simulation: Simulates delta hedging over two days with stock prices of \$35.50 (Day 1) and $34.80 (Day 2), calculating profit/loss and rebalancing costs.
 
