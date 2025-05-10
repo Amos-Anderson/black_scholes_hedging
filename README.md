@@ -18,7 +18,7 @@ Clean, scikit-learn-style Python code with input validation and comprehensive do
 This project is ideal for quantitative finance professionals, data scientists, and developers interested in financial modeling and risk management.
 
 ## Installation
-To run the project, ensure you have Python 3.6+ and the required dependencies installed. \\
+To run the project, ensure you have Python 3.6+ and the required dependencies installed. \
 pip install numpy
 
 ## Usage
