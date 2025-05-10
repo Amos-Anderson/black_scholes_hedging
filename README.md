@@ -5,9 +5,9 @@ Welcome to the Black-Scholes Delta Hedging project, a deep dive into option pric
 ## Project Overview
 In financial markets, options are powerful tools for managing risk and capturing opportunity. The Black-Scholes model provides a theoretical framework to price options and hedge their risks. This project explores:
 
-Option Pricing: Calculating the value of a European call option on 1000 shares with a custom polynomial approximation for the standard normal CDF.
-Delta Hedging: Simulating a dynamic hedging strategy over two days as the stock price fluctuates, balancing theoretical precision with practical execution.
-Implementation: A reusable BlackScholes class with methods for pricing and delta calculations, designed for clarity and extensibility.
+* Option Pricing: Calculating the value of a European call option on 1000 shares with a custom polynomial approximation for the standard normal CDF.
+* Delta Hedging: Simulating a dynamic hedging strategy over two days as the stock price fluctuates, balancing theoretical precision with practical execution.
+* Implementation: A reusable BlackScholes class with methods for pricing and delta calculations, designed for clarity and extensibility.
 
 ## Key features:
 
@@ -16,8 +16,9 @@ LaTeX derivations in a Jupyter Notebook, blending mathematical rigor with practi
 Clean, scikit-learn-style Python code with input validation and comprehensive docstrings.
 
 This project is ideal for quantitative finance professionals, data scientists, and developers interested in financial modeling and risk management.
-Installation
-To run the project, ensure you have Python 3.6+ and the required dependencies installed.
+
+## Installation
+To run the project, ensure you have Python 3.6+ and the required dependencies installed. \\
 pip install numpy
 
 ## Usage
